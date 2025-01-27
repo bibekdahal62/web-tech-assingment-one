@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Dosis:wght@200..800&family=Roboto+Mono:ital,wght@0,372;1,372&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #ff7e5f, #5d81f8);
+}
+
+.login-container {
+    background: #ededed;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    font-size: 18px;
+    color: #555;
+    margin: 0.6rem 0 0.1rem 0;
+    padding-left: 0.2rem;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    margin: 0.2rem 0 0.6rem 0;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 0.9rem 0 1.2rem 0;
+    background: #9b59b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #7e3f9a;
+}
+
+.login-container p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.login-container p a{
+    color: rgb(17, 17, 202);
+}
+
+.login-container p a:hover {
+    color: rgb(85, 13, 253);
+}

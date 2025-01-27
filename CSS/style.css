@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Dosis:wght@200..800&family=Roboto+Mono:ital,wght@0,372;1,372&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    min-height: auto;
+}
+
+header,
+footer {
+    background-color: #4b669b;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 3.4rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #0085e5;
+    padding: 1.2rem 0;
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 0.8rem 2rem;
+}
+
+nav li a:hover {
+    background-color: #005acf;
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.slider img {
+    width: auto;
+    height: auto;
+    mix-blend-mode: normal;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 3rem 2rem;
+    margin: 1rem 5rem 3rem 5rem;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    padding: 2rem 2rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: auto;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+footer p {
+    color: white;
+}
+
+/* about page style begins */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 6.65rem;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-image img {
+    width: 20rem;
+    height: auto;
+    border-radius: 15px;
+}
+
+.about-content {
+    margin-left: 2rem;
+    color: #333;
+}
+
+.about-content h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.about-content h2 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+}
+
+.about-content p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #444;
+    text-align: justify;
+}
+
+.about-icons {
+    display: flex;
+    margin: 1rem 0 0 1rem;
+    gap: 1rem;
+}
+
+.fa-brands {
+    font-size: 2rem;
+}
+
+/* contact page style begins here */
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-container .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info .box {
+    text-align: center;
+    vertical-align: center;
+    margin: 2rem 1rem 0 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #4ab0e3;
+}
+
+.contact-info .box h3,
+.contact-info .box p {
+    color: white;
+}
+
+.contact-container .contact-form {
+    background-color: #b3d7f7;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    min-width: 25rem;
+    border-radius: 15px;
+}
+
+.contact-container .contact-form h2 {
+    margin-bottom: 1.2rem;
+    color: #015288;
+}
+
+.contact-container .contact-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 0.9rem;
+    padding: 0.6rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 8rem;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #002f6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.contact-form button:hover {
+    background-color: #0051a3;
+}
