@@ -17,37 +17,37 @@ body {
 
 .form-container {
     background-color: white;
-    padding: 20px 35px;
-    width: 450px;
+    padding: 1.4rem 2rem;
+    width: 27rem;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
     border-radius: 8px;
 }
 
 .form-container h1 {
     text-align: center;
-    margin: 20px 0 30px 0;
+    margin: 1.2rem 0 1.8rem 0;
 }
 
 .form-container label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.4rem;
 }
 
 .form-container input,
 .form-container button,
 .form-container select {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1rem;
     outline: none;
 }
 
 .form-container input[type="checkbox"] {
     width: auto;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .form-container .gender {
