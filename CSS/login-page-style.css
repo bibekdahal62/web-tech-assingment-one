@@ -11,12 +11,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, #ff7e5f, #5d81f8);
+    background: radial-gradient(circle, #5f67ff, #f85d74);
 }
 
 .login-container {
-    background-color: white;
-    padding: 3rem 3rem 2rem 3rem;
+    background-color: #cccccc;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 8px 20px #00000033;
     width: 25rem;
@@ -50,7 +50,7 @@ body {
     width: 100%;
     padding: 10px;
     margin: 0.9rem 0 1rem 0;
-    background-color: #9b59b6;
+    background-color: #ff5900;
     color: white;
     border: none;
     border-radius: 5px;
@@ -59,7 +59,7 @@ body {
 }
 
 .login-container button:hover {
-    background-color: #7e3f9a;
+    background-color: #fc2f20;
 }
 
 .login-container p{
@@ -70,8 +70,10 @@ body {
 
 .login-container p a{
     color: #1111ca;
+    text-decoration: none;
 }
 
 .login-container p a:hover {
     color: #550dfd;
+    text-decoration: underline;
 }
