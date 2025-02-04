@@ -9,8 +9,8 @@
 body {
     font-family: 'Alegreya', serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
     min-height: auto;
+    background-color: #fff5e6;
 }
 
 header,
@@ -25,7 +25,7 @@ header h1 {
     font-size: 3.4rem;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,6 +82,7 @@ nav li a:hover {
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fef6f0;
 }
 
 .grid-item:hover {
@@ -124,7 +125,7 @@ footer p {
     justify-content: center;
     padding: 4rem;
     max-width: 900px;
-    background-color: white;
+    background-color: #fef6f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
@@ -230,6 +231,7 @@ footer p {
     border-radius: 5px;
     outline: none;
     font-size: 1rem;
+    background-color: #fef6f0;
 }
 
 .contact-form textarea {

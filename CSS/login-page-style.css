@@ -6,16 +6,20 @@
 }
 
 body {
+    background-color: #fff5e6;
+}
+
+.container-login {
     font-family: 'Alegreya', serif;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, #5f67ff, #f85d74);
+    height: 80vh;
+    margin: 0.5rem 0;
 }
 
 .login-container {
-    background-color: #cccccc;
+    background-color: #ffd7b4;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 8px 20px #00000033;
@@ -44,6 +48,7 @@ body {
     font-size: 1rem;
     outline: none;
     margin: 0.2rem 0 0.6rem 0;
+    background-color: #fef6f0;
 }
 
 .login-container button {
